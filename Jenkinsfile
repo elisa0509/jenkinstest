@@ -13,9 +13,9 @@ pipeline{
       }
 
     }
-      stage('second stage'){
+      stage('final stage'){
       steps {
-        sh 'echo "my stage two"'
+        sh 'echo "my final stage"'
       }
 
     }
